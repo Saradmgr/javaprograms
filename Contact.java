@@ -5,7 +5,9 @@ import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import javax.swing.*;
-
+//make database contact
+//make table details
+//make four columns named id,name,address and pnone
 class Database {
     void intoDatabase(String name, String address, String phone) {
         String query = "INSERT INTO details (name, address, phone) VALUES (?, ?, ?)";
